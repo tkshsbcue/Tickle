@@ -20,6 +20,12 @@ struct Register: View {
                     SecureField("Password",text:$password)
                     
                 }
+                Button{
+                    
+                }label:{
+//                    RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/).foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+                    Text("Register")
+                }
             }
         }
     }

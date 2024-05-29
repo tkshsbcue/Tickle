@@ -15,10 +15,10 @@
 		E41219D32C05EE8E00873F6B /* TickleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41219D22C05EE8E00873F6B /* TickleUITests.swift */; };
 		E41219D52C05EE8E00873F6B /* TickleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41219D42C05EE8E00873F6B /* TickleUITestsLaunchTests.swift */; };
 		E41219E22C05F30200873F6B /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41219E12C05F30200873F6B /* Register.swift */; };
-		E41219E42C06FB2F00873F6B /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = E41219E32C06FB2F00873F6B /* GoogleService-Info (1).plist */; };
 		E41219E72C06FC1500873F6B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E41219E62C06FC1500873F6B /* FirebaseAuth */; };
 		E41219E92C06FC1500873F6B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E41219E82C06FC1500873F6B /* FirebaseFirestore */; };
 		E41219EB2C06FC1500873F6B /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E41219EA2C06FC1500873F6B /* FirebaseFirestoreSwift */; };
+		E42CD48C2C074640003F50D3 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = E42CD48B2C074640003F50D3 /* GoogleService-Info (1).plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +51,7 @@
 		E41219D22C05EE8E00873F6B /* TickleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickleUITests.swift; sourceTree = "<group>"; };
 		E41219D42C05EE8E00873F6B /* TickleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E41219E12C05F30200873F6B /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
-		E41219E32C06FB2F00873F6B /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (1).plist"; path = "../../Downloads/GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		E42CD48B2C074640003F50D3 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (1).plist"; path = "../../../Downloads/GoogleService-Info (1).plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +110,7 @@
 				E41219E12C05F30200873F6B /* Register.swift */,
 				E41219BA2C05EE8E00873F6B /* Assets.xcassets */,
 				E41219BC2C05EE8E00873F6B /* Tickle.entitlements */,
-				E41219E32C06FB2F00873F6B /* GoogleService-Info (1).plist */,
+				E42CD48B2C074640003F50D3 /* GoogleService-Info (1).plist */,
 				E41219BD2C05EE8E00873F6B /* Preview Content */,
 			);
 			path = Tickle;
@@ -254,7 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E41219BF2C05EE8E00873F6B /* Preview Assets.xcassets in Resources */,
-				E41219E42C06FB2F00873F6B /* GoogleService-Info (1).plist in Resources */,
+				E42CD48C2C074640003F50D3 /* GoogleService-Info (1).plist in Resources */,
 				E41219BB2C05EE8E00873F6B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
