@@ -18,9 +18,8 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    @State  var login = ""
-    @State  var password = ""
+struct LoginView: View {
+    @State var viewModel = LoginViewModel()
     var body: some View {
         NavigationView{
             VStack{
@@ -28,8 +27,8 @@ struct ContentView: View {
                 Text("Free VBUCK").offset(y:-100).bold().foregroundColor(.green)
                 ZStack{
                     Form{
-                        TextField("Name",text:$login)
-                        SecureField("Password",text:$password)
+                        TextField("Name",text:$viewModel.email)
+                        SecureField("Password",text:$viewModel.password)
                         NavigationLink(destination:Register()){
                             Text("New Here")
                         }
@@ -55,5 +54,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    LoginView()
 }

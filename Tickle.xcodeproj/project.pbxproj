@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E41219B72C05EE8D00873F6B /* TickleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41219B62C05EE8D00873F6B /* TickleApp.swift */; };
-		E41219B92C05EE8D00873F6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41219B82C05EE8D00873F6B /* ContentView.swift */; };
+		E41219B92C05EE8D00873F6B /* loginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41219B82C05EE8D00873F6B /* loginView.swift */; };
 		E41219BB2C05EE8E00873F6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E41219BA2C05EE8E00873F6B /* Assets.xcassets */; };
 		E41219BF2C05EE8E00873F6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E41219BE2C05EE8E00873F6B /* Preview Assets.xcassets */; };
 		E41219C92C05EE8E00873F6B /* TickleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41219C82C05EE8E00873F6B /* TickleTests.swift */; };
@@ -19,6 +19,8 @@
 		E41219E92C06FC1500873F6B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E41219E82C06FC1500873F6B /* FirebaseFirestore */; };
 		E41219EB2C06FC1500873F6B /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E41219EA2C06FC1500873F6B /* FirebaseFirestoreSwift */; };
 		E42CD48C2C074640003F50D3 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = E42CD48B2C074640003F50D3 /* GoogleService-Info (1).plist */; };
+		E42CD4902C07497F003F50D3 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42CD48F2C07497F003F50D3 /* LoginViewModel.swift */; };
+		E42CD4932C074996003F50D3 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42CD4922C074996003F50D3 /* MainViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +43,7 @@
 /* Begin PBXFileReference section */
 		E41219B32C05EE8D00873F6B /* Tickle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tickle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41219B62C05EE8D00873F6B /* TickleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickleApp.swift; sourceTree = "<group>"; };
-		E41219B82C05EE8D00873F6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E41219B82C05EE8D00873F6B /* loginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginView.swift; sourceTree = "<group>"; };
 		E41219BA2C05EE8E00873F6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E41219BC2C05EE8E00873F6B /* Tickle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tickle.entitlements; sourceTree = "<group>"; };
 		E41219BE2C05EE8E00873F6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -52,6 +54,8 @@
 		E41219D42C05EE8E00873F6B /* TickleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E41219E12C05F30200873F6B /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
 		E42CD48B2C074640003F50D3 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (1).plist"; path = "../../../Downloads/GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		E42CD48F2C07497F003F50D3 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		E42CD4922C074996003F50D3 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +110,10 @@
 			isa = PBXGroup;
 			children = (
 				E41219B62C05EE8D00873F6B /* TickleApp.swift */,
-				E41219B82C05EE8D00873F6B /* ContentView.swift */,
 				E41219E12C05F30200873F6B /* Register.swift */,
+				E41219B82C05EE8D00873F6B /* loginView.swift */,
+				E42CD48F2C07497F003F50D3 /* LoginViewModel.swift */,
+				E42CD4922C074996003F50D3 /* MainViewModel.swift */,
 				E41219BA2C05EE8E00873F6B /* Assets.xcassets */,
 				E41219BC2C05EE8E00873F6B /* Tickle.entitlements */,
 				E42CD48B2C074640003F50D3 /* GoogleService-Info (1).plist */,
@@ -280,8 +286,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E42CD4932C074996003F50D3 /* MainViewModel.swift in Sources */,
+				E42CD4902C07497F003F50D3 /* LoginViewModel.swift in Sources */,
 				E41219E22C05F30200873F6B /* Register.swift in Sources */,
-				E41219B92C05EE8D00873F6B /* ContentView.swift in Sources */,
+				E41219B92C05EE8D00873F6B /* loginView.swift in Sources */,
 				E41219B72C05EE8D00873F6B /* TickleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
