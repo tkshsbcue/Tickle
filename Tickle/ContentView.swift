@@ -33,7 +33,13 @@ struct ContentView: View {
                         NavigationLink(destination:Register()){
                             Text("New Here")
                         }
-                    }.offset(y:-100).frame(height:200)
+                    }.offset(y:-100).frame(height:230)
+                    Button{
+                        
+                    }label:{
+                        Text("Login")
+                    }
+                    
                 }
                 
                 RoundedRectangle(cornerRadius: 1).foregroundColor(.red).offset(y:40).frame(height:220)
