@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E41219B72C05EE8D00873F6B /* TickleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41219B62C05EE8D00873F6B /* TickleApp.swift */; };
+		E41219B92C05EE8D00873F6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41219B82C05EE8D00873F6B /* ContentView.swift */; };
+		E41219BB2C05EE8E00873F6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E41219BA2C05EE8E00873F6B /* Assets.xcassets */; };
+		E41219BF2C05EE8E00873F6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E41219BE2C05EE8E00873F6B /* Preview Assets.xcassets */; };
+		E41219C92C05EE8E00873F6B /* TickleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41219C82C05EE8E00873F6B /* TickleTests.swift */; };
+		E41219D32C05EE8E00873F6B /* TickleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41219D22C05EE8E00873F6B /* TickleUITests.swift */; };
+		E41219D52C05EE8E00873F6B /* TickleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41219D42C05EE8E00873F6B /* TickleUITestsLaunchTests.swift */; };
+		E41219E22C05F30200873F6B /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41219E12C05F30200873F6B /* Register.swift */; };
+		E41219E42C06FB2F00873F6B /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = E41219E32C06FB2F00873F6B /* GoogleService-Info (1).plist */; };
+		E41219E72C06FC1500873F6B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E41219E62C06FC1500873F6B /* FirebaseAuth */; };
+		E41219E92C06FC1500873F6B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E41219E82C06FC1500873F6B /* FirebaseFirestore */; };
+		E41219EB2C06FC1500873F6B /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E41219EA2C06FC1500873F6B /* FirebaseFirestoreSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E41219C52C05EE8E00873F6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E41219AB2C05EE8D00873F6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E41219B22C05EE8D00873F6B;
+			remoteInfo = Tickle;
+		};
+		E41219CF2C05EE8E00873F6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E41219AB2C05EE8D00873F6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E41219B22C05EE8D00873F6B;
+			remoteInfo = Tickle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E41219B32C05EE8D00873F6B /* Tickle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tickle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E41219B62C05EE8D00873F6B /* TickleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickleApp.swift; sourceTree = "<group>"; };
+		E41219B82C05EE8D00873F6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E41219BA2C05EE8E00873F6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E41219BC2C05EE8E00873F6B /* Tickle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tickle.entitlements; sourceTree = "<group>"; };
+		E41219BE2C05EE8E00873F6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E41219C42C05EE8E00873F6B /* TickleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TickleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E41219C82C05EE8E00873F6B /* TickleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickleTests.swift; sourceTree = "<group>"; };
+		E41219CE2C05EE8E00873F6B /* TickleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TickleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E41219D22C05EE8E00873F6B /* TickleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickleUITests.swift; sourceTree = "<group>"; };
+		E41219D42C05EE8E00873F6B /* TickleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E41219E12C05F30200873F6B /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		E41219E32C06FB2F00873F6B /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (1).plist"; path = "../../Downloads/GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E41219B02C05EE8D00873F6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E41219E72C06FC1500873F6B /* FirebaseAuth in Frameworks */,
+				E41219E92C06FC1500873F6B /* FirebaseFirestore in Frameworks */,
+				E41219EB2C06FC1500873F6B /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E41219C12C05EE8E00873F6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E41219CB2C05EE8E00873F6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E41219AA2C05EE8D00873F6B = {
+			isa = PBXGroup;
+			children = (
+				E41219B52C05EE8D00873F6B /* Tickle */,
+				E41219C72C05EE8E00873F6B /* TickleTests */,
+				E41219D12C05EE8E00873F6B /* TickleUITests */,
+				E41219B42C05EE8D00873F6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E41219B42C05EE8D00873F6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E41219B32C05EE8D00873F6B /* Tickle.app */,
+				E41219C42C05EE8E00873F6B /* TickleTests.xctest */,
+				E41219CE2C05EE8E00873F6B /* TickleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E41219B52C05EE8D00873F6B /* Tickle */ = {
+			isa = PBXGroup;
+			children = (
+				E41219B62C05EE8D00873F6B /* TickleApp.swift */,
+				E41219B82C05EE8D00873F6B /* ContentView.swift */,
+				E41219E12C05F30200873F6B /* Register.swift */,
+				E41219BA2C05EE8E00873F6B /* Assets.xcassets */,
+				E41219BC2C05EE8E00873F6B /* Tickle.entitlements */,
+				E41219E32C06FB2F00873F6B /* GoogleService-Info (1).plist */,
+				E41219BD2C05EE8E00873F6B /* Preview Content */,
+			);
+			path = Tickle;
+			sourceTree = "<group>";
+		};
+		E41219BD2C05EE8E00873F6B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E41219BE2C05EE8E00873F6B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E41219C72C05EE8E00873F6B /* TickleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E41219C82C05EE8E00873F6B /* TickleTests.swift */,
+			);
+			path = TickleTests;
+			sourceTree = "<group>";
+		};
+		E41219D12C05EE8E00873F6B /* TickleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E41219D22C05EE8E00873F6B /* TickleUITests.swift */,
+				E41219D42C05EE8E00873F6B /* TickleUITestsLaunchTests.swift */,
+			);
+			path = TickleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E41219B22C05EE8D00873F6B /* Tickle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E41219D82C05EE8E00873F6B /* Build configuration list for PBXNativeTarget "Tickle" */;
+			buildPhases = (
+				E41219AF2C05EE8D00873F6B /* Sources */,
+				E41219B02C05EE8D00873F6B /* Frameworks */,
+				E41219B12C05EE8D00873F6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tickle;
+			packageProductDependencies = (
+				E41219E62C06FC1500873F6B /* FirebaseAuth */,
+				E41219E82C06FC1500873F6B /* FirebaseFirestore */,
+				E41219EA2C06FC1500873F6B /* FirebaseFirestoreSwift */,
+			);
+			productName = Tickle;
+			productReference = E41219B32C05EE8D00873F6B /* Tickle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E41219C32C05EE8E00873F6B /* TickleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E41219DB2C05EE8E00873F6B /* Build configuration list for PBXNativeTarget "TickleTests" */;
+			buildPhases = (
+				E41219C02C05EE8E00873F6B /* Sources */,
+				E41219C12C05EE8E00873F6B /* Frameworks */,
+				E41219C22C05EE8E00873F6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E41219C62C05EE8E00873F6B /* PBXTargetDependency */,
+			);
+			name = TickleTests;
+			productName = TickleTests;
+			productReference = E41219C42C05EE8E00873F6B /* TickleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E41219CD2C05EE8E00873F6B /* TickleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E41219DE2C05EE8E00873F6B /* Build configuration list for PBXNativeTarget "TickleUITests" */;
+			buildPhases = (
+				E41219CA2C05EE8E00873F6B /* Sources */,
+				E41219CB2C05EE8E00873F6B /* Frameworks */,
+				E41219CC2C05EE8E00873F6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E41219D02C05EE8E00873F6B /* PBXTargetDependency */,
+			);
+			name = TickleUITests;
+			productName = TickleUITests;
+			productReference = E41219CE2C05EE8E00873F6B /* TickleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E41219AB2C05EE8D00873F6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					E41219B22C05EE8D00873F6B = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					E41219C32C05EE8E00873F6B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = E41219B22C05EE8D00873F6B;
+					};
+					E41219CD2C05EE8E00873F6B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = E41219B22C05EE8D00873F6B;
+					};
+				};
+			};
+			buildConfigurationList = E41219AE2C05EE8D00873F6B /* Build configuration list for PBXProject "Tickle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E41219AA2C05EE8D00873F6B;
+			packageReferences = (
+				E41219E52C06FC1500873F6B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = E41219B42C05EE8D00873F6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E41219B22C05EE8D00873F6B /* Tickle */,
+				E41219C32C05EE8E00873F6B /* TickleTests */,
+				E41219CD2C05EE8E00873F6B /* TickleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E41219B12C05EE8D00873F6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E41219BF2C05EE8E00873F6B /* Preview Assets.xcassets in Resources */,
+				E41219E42C06FB2F00873F6B /* GoogleService-Info (1).plist in Resources */,
+				E41219BB2C05EE8E00873F6B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E41219C22C05EE8E00873F6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E41219CC2C05EE8E00873F6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E41219AF2C05EE8D00873F6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E41219E22C05F30200873F6B /* Register.swift in Sources */,
+				E41219B92C05EE8D00873F6B /* ContentView.swift in Sources */,
+				E41219B72C05EE8D00873F6B /* TickleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E41219C02C05EE8E00873F6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E41219C92C05EE8E00873F6B /* TickleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E41219CA2C05EE8E00873F6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E41219D52C05EE8E00873F6B /* TickleUITestsLaunchTests.swift in Sources */,
+				E41219D32C05EE8E00873F6B /* TickleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E41219C62C05EE8E00873F6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E41219B22C05EE8D00873F6B /* Tickle */;
+			targetProxy = E41219C52C05EE8E00873F6B /* PBXContainerItemProxy */;
+		};
+		E41219D02C05EE8E00873F6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E41219B22C05EE8D00873F6B /* Tickle */;
+			targetProxy = E41219CF2C05EE8E00873F6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E41219D62C05EE8E00873F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E41219D72C05EE8E00873F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E41219D92C05EE8E00873F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Tickle/Tickle.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tickle/Preview Content\"";
+				DEVELOPMENT_TEAM = 7P2YB7YDTU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = team.Tickle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E41219DA2C05EE8E00873F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Tickle/Tickle.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tickle/Preview Content\"";
+				DEVELOPMENT_TEAM = 7P2YB7YDTU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = team.Tickle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E41219DC2C05EE8E00873F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7P2YB7YDTU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = team.TickleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tickle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tickle";
+			};
+			name = Debug;
+		};
+		E41219DD2C05EE8E00873F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7P2YB7YDTU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = team.TickleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tickle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tickle";
+			};
+			name = Release;
+		};
+		E41219DF2C05EE8E00873F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7P2YB7YDTU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = team.TickleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tickle;
+			};
+			name = Debug;
+		};
+		E41219E02C05EE8E00873F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7P2YB7YDTU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = team.TickleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tickle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E41219AE2C05EE8D00873F6B /* Build configuration list for PBXProject "Tickle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E41219D62C05EE8E00873F6B /* Debug */,
+				E41219D72C05EE8E00873F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E41219D82C05EE8E00873F6B /* Build configuration list for PBXNativeTarget "Tickle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E41219D92C05EE8E00873F6B /* Debug */,
+				E41219DA2C05EE8E00873F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E41219DB2C05EE8E00873F6B /* Build configuration list for PBXNativeTarget "TickleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E41219DC2C05EE8E00873F6B /* Debug */,
+				E41219DD2C05EE8E00873F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E41219DE2C05EE8E00873F6B /* Build configuration list for PBXNativeTarget "TickleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E41219DF2C05EE8E00873F6B /* Debug */,
+				E41219E02C05EE8E00873F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E41219E52C06FC1500873F6B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.26.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E41219E62C06FC1500873F6B /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E41219E52C06FC1500873F6B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		E41219E82C06FC1500873F6B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E41219E52C06FC1500873F6B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		E41219EA2C06FC1500873F6B /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E41219E52C06FC1500873F6B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E41219AB2C05EE8D00873F6B /* Project object */;
+}
