@@ -10,6 +10,7 @@ import SwiftUI
 @main
 struct TickleApp: App {
     var body: some Scene {
+        
         WindowGroup {
             LoginView()
         }

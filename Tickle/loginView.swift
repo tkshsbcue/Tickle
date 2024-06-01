@@ -26,13 +26,17 @@ struct LoginView: View {
                 RoundedRectangle(cornerRadius:1).frame(width: 600,height:300).offset(y:-100).foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
                 Text("Free VBUCK").offset(y:-100).bold().foregroundColor(.green)
                 ZStack{
+ 
                     Form{
+                        if !viewModel.errormsg.isEmpty {
+                            Text(viewModel.errormsg).foregroundColor(Color.red)
+                        }
                         TextField("Name",text:$viewModel.email)
                         SecureField("Password",text:$viewModel.password)
                         NavigationLink(destination:Register()){
                             Text("New Here")
                         }
-                    }.offset(y:-100).frame(height:230)
+                    }.offset(y:-50).frame(height:300)
                      Button{
                          viewModel.login()
                     }label:{

@@ -18,6 +18,9 @@
 		E41219E72C06FC1500873F6B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E41219E62C06FC1500873F6B /* FirebaseAuth */; };
 		E41219E92C06FC1500873F6B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E41219E82C06FC1500873F6B /* FirebaseFirestore */; };
 		E41219EB2C06FC1500873F6B /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E41219EA2C06FC1500873F6B /* FirebaseFirestoreSwift */; };
+		E41401382C0B48A40025A519 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41401372C0B48A40025A519 /* RegisterViewModel.swift */; };
+		E414013A2C0B6C650025A519 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41401392C0B6C650025A519 /* user.swift */; };
+		E414013C2C0B6EC60025A519 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414013B2C0B6EC60025A519 /* extension.swift */; };
 		E42CD48C2C074640003F50D3 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = E42CD48B2C074640003F50D3 /* GoogleService-Info (1).plist */; };
 		E42CD4902C07497F003F50D3 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42CD48F2C07497F003F50D3 /* LoginViewModel.swift */; };
 		E42CD4932C074996003F50D3 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42CD4922C074996003F50D3 /* MainViewModel.swift */; };
@@ -53,6 +56,9 @@
 		E41219D22C05EE8E00873F6B /* TickleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickleUITests.swift; sourceTree = "<group>"; };
 		E41219D42C05EE8E00873F6B /* TickleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E41219E12C05F30200873F6B /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		E41401372C0B48A40025A519 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		E41401392C0B6C650025A519 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		E414013B2C0B6EC60025A519 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
 		E42CD48B2C074640003F50D3 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (1).plist"; path = "../../../Downloads/GoogleService-Info (1).plist"; sourceTree = "<group>"; };
 		E42CD48F2C07497F003F50D3 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		E42CD4922C074996003F50D3 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
@@ -110,10 +116,13 @@
 			isa = PBXGroup;
 			children = (
 				E41219B62C05EE8D00873F6B /* TickleApp.swift */,
+				E414013B2C0B6EC60025A519 /* extension.swift */,
 				E41219E12C05F30200873F6B /* Register.swift */,
+				E41401372C0B48A40025A519 /* RegisterViewModel.swift */,
 				E41219B82C05EE8D00873F6B /* loginView.swift */,
 				E42CD48F2C07497F003F50D3 /* LoginViewModel.swift */,
 				E42CD4922C074996003F50D3 /* MainViewModel.swift */,
+				E41401392C0B6C650025A519 /* user.swift */,
 				E41219BA2C05EE8E00873F6B /* Assets.xcassets */,
 				E41219BC2C05EE8E00873F6B /* Tickle.entitlements */,
 				E42CD48B2C074640003F50D3 /* GoogleService-Info (1).plist */,
@@ -287,10 +296,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E42CD4932C074996003F50D3 /* MainViewModel.swift in Sources */,
+				E41401382C0B48A40025A519 /* RegisterViewModel.swift in Sources */,
 				E42CD4902C07497F003F50D3 /* LoginViewModel.swift in Sources */,
 				E41219E22C05F30200873F6B /* Register.swift in Sources */,
+				E414013A2C0B6C650025A519 /* user.swift in Sources */,
 				E41219B92C05EE8D00873F6B /* loginView.swift in Sources */,
 				E41219B72C05EE8D00873F6B /* TickleApp.swift in Sources */,
+				E414013C2C0B6EC60025A519 /* extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -4,18 +4,18 @@
 //
 //  Created by Kumar Tanay on 29/05/24.
 //
-
+import FirebaseAuth
 import Foundation
+import Firebase
 class LoginViewModel:ObservableObject{
     @Published var email = ""
     @Published var password = ""
+    @Published var errormsg = ""
     init(){}
     
     func login(){
-        guard !email.isEmpty, !password.isEmpty else{
-             return
-        }
-        print("Hello there")
+        Auth.auth().signIn(withEmail:email,password: password)
+        
     }
     func validate(){}
 

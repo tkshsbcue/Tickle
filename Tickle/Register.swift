@@ -8,16 +8,15 @@
 import SwiftUI
 
 struct Register: View {
-    @State var name = ""
-    @State var email = ""
-    @State var password = ""
+    @StateObject var viewModel = RegisterViewModel()
+    
     var body: some View {
         NavigationView{
             VStack{
                 Form{
-                    TextField("Name",text:$name)
-                    TextField("Email",text:$email)
-                    SecureField("Password",text:$password)
+                    TextField("Name",text:$viewModel.name)
+                    TextField("Email",text:$viewModel.email)
+                    SecureField("Password",text:$viewModel.password )
                     
                 }
                 Button{
