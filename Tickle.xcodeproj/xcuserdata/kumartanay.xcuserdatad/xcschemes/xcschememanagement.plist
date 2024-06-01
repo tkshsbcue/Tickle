@@ -23,12 +23,30 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>Tickle.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>E41219B22C05EE8D00873F6B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E41219C32C05EE8E00873F6B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E41219CD2C05EE8E00873F6B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

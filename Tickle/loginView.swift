@@ -33,8 +33,8 @@ struct LoginView: View {
                             Text("New Here")
                         }
                     }.offset(y:-100).frame(height:230)
-                    Button{
-                        
+                     Button{
+                         viewModel.login()
                     }label:{
                         Text("Login")
                     }
