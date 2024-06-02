@@ -21,7 +21,8 @@
 		E41401382C0B48A40025A519 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41401372C0B48A40025A519 /* RegisterViewModel.swift */; };
 		E414013A2C0B6C650025A519 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41401392C0B6C650025A519 /* user.swift */; };
 		E414013C2C0B6EC60025A519 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414013B2C0B6EC60025A519 /* extension.swift */; };
-		E42CD48C2C074640003F50D3 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = E42CD48B2C074640003F50D3 /* GoogleService-Info (1).plist */; };
+		E414013E2C0B76E90025A519 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414013D2C0B76E90025A519 /* ToDoListView.swift */; };
+		E41401412C0B7A970025A519 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E41401402C0B7A960025A519 /* GoogleService-Info.plist */; };
 		E42CD4902C07497F003F50D3 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42CD48F2C07497F003F50D3 /* LoginViewModel.swift */; };
 		E42CD4932C074996003F50D3 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42CD4922C074996003F50D3 /* MainViewModel.swift */; };
 /* End PBXBuildFile section */
@@ -59,7 +60,8 @@
 		E41401372C0B48A40025A519 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 		E41401392C0B6C650025A519 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
 		E414013B2C0B6EC60025A519 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
-		E42CD48B2C074640003F50D3 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (1).plist"; path = "../../../Downloads/GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		E414013D2C0B76E90025A519 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
+		E41401402C0B7A960025A519 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E42CD48F2C07497F003F50D3 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		E42CD4922C074996003F50D3 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,9 +125,10 @@
 				E42CD48F2C07497F003F50D3 /* LoginViewModel.swift */,
 				E42CD4922C074996003F50D3 /* MainViewModel.swift */,
 				E41401392C0B6C650025A519 /* user.swift */,
+				E414013D2C0B76E90025A519 /* ToDoListView.swift */,
 				E41219BA2C05EE8E00873F6B /* Assets.xcassets */,
 				E41219BC2C05EE8E00873F6B /* Tickle.entitlements */,
-				E42CD48B2C074640003F50D3 /* GoogleService-Info (1).plist */,
+				E41401402C0B7A960025A519 /* GoogleService-Info.plist */,
 				E41219BD2C05EE8E00873F6B /* Preview Content */,
 			);
 			path = Tickle;
@@ -269,8 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E41219BF2C05EE8E00873F6B /* Preview Assets.xcassets in Resources */,
-				E42CD48C2C074640003F50D3 /* GoogleService-Info (1).plist in Resources */,
 				E41219BB2C05EE8E00873F6B /* Assets.xcassets in Resources */,
+				E41401412C0B7A970025A519 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +301,7 @@
 				E42CD4932C074996003F50D3 /* MainViewModel.swift in Sources */,
 				E41401382C0B48A40025A519 /* RegisterViewModel.swift in Sources */,
 				E42CD4902C07497F003F50D3 /* LoginViewModel.swift in Sources */,
+				E414013E2C0B76E90025A519 /* ToDoListView.swift in Sources */,
 				E41219E22C05F30200873F6B /* Register.swift in Sources */,
 				E414013A2C0B6C650025A519 /* user.swift in Sources */,
 				E41219B92C05EE8D00873F6B /* loginView.swift in Sources */,
