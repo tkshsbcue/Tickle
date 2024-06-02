@@ -7,20 +7,33 @@
 
 import SwiftUI
 import Firebase
+import FirebaseDatabaseInternal
+
+class AppDelegate: NSObject, UIApplicationDelegate {
+    func application(_ application: UIApplication,
+                     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        FirebaseApp.configure()
+        Database.database().isPersistenceEnabled = true
+        return true
+    }
+}
 
 @main
 struct TickleApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     @StateObject var viewModel = MainViewModel()
-    
-    // Initialize Firebase in the initializer
-    init() {
-        FirebaseApp.configure()
-    }
-    
+
     var body: some Scene {
         WindowGroup {
             if viewModel.isSignedIn, !viewModel.currentUserId.isEmpty {
-                ToDoListView()
+                TabView{
+                    ToDoListView().tabItem{
+                        Label("Home",systemImage: "house")
+                    }
+                    Register().tabItem{
+                        Label("Profile",systemImage: "person.circle")
+                    }
+                }
             } else {
                 LoginView()
             }

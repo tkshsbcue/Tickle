@@ -25,6 +25,9 @@
 		E41401412C0B7A970025A519 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E41401402C0B7A960025A519 /* GoogleService-Info.plist */; };
 		E42CD4902C07497F003F50D3 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42CD48F2C07497F003F50D3 /* LoginViewModel.swift */; };
 		E42CD4932C074996003F50D3 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42CD4922C074996003F50D3 /* MainViewModel.swift */; };
+		E4484CC72C0CC30F0056DDC4 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = E4484CC62C0CC30F0056DDC4 /* FirebaseAuthCombine-Community */; };
+		E4484CC92C0CC30F0056DDC4 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = E4484CC82C0CC30F0056DDC4 /* FirebaseDatabase */; };
+		E4484CCB2C0CC30F0056DDC4 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E4484CCA2C0CC30F0056DDC4 /* FirebaseDatabaseSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,9 +74,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4484CCB2C0CC30F0056DDC4 /* FirebaseDatabaseSwift in Frameworks */,
+				E4484CC92C0CC30F0056DDC4 /* FirebaseDatabase in Frameworks */,
 				E41219E72C06FC1500873F6B /* FirebaseAuth in Frameworks */,
 				E41219E92C06FC1500873F6B /* FirebaseFirestore in Frameworks */,
 				E41219EB2C06FC1500873F6B /* FirebaseFirestoreSwift in Frameworks */,
+				E4484CC72C0CC30F0056DDC4 /* FirebaseAuthCombine-Community in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +185,9 @@
 				E41219E62C06FC1500873F6B /* FirebaseAuth */,
 				E41219E82C06FC1500873F6B /* FirebaseFirestore */,
 				E41219EA2C06FC1500873F6B /* FirebaseFirestoreSwift */,
+				E4484CC62C0CC30F0056DDC4 /* FirebaseAuthCombine-Community */,
+				E4484CC82C0CC30F0056DDC4 /* FirebaseDatabase */,
+				E4484CCA2C0CC30F0056DDC4 /* FirebaseDatabaseSwift */,
 			);
 			productName = Tickle;
 			productReference = E41219B32C05EE8D00873F6B /* Tickle.app */;
@@ -228,7 +237,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
-				LastUpgradeCheck = 1520;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					E41219B22C05EE8D00873F6B = {
 						CreatedOnToolsVersion = 15.2;
@@ -377,6 +386,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -438,6 +448,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -465,6 +476,7 @@
 				CODE_SIGN_ENTITLEMENTS = Tickle/Tickle.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Tickle/Preview Content\"";
 				DEVELOPMENT_TEAM = 7P2YB7YDTU;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -503,6 +515,7 @@
 				CODE_SIGN_ENTITLEMENTS = Tickle/Tickle.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Tickle/Preview Content\"";
 				DEVELOPMENT_TEAM = 7P2YB7YDTU;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -540,6 +553,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 7P2YB7YDTU;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
@@ -563,6 +577,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 7P2YB7YDTU;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
@@ -585,6 +600,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 7P2YB7YDTU;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
@@ -607,6 +623,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 7P2YB7YDTU;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
@@ -690,6 +707,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E41219E52C06FC1500873F6B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestoreSwift;
+		};
+		E4484CC62C0CC30F0056DDC4 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E41219E52C06FC1500873F6B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		E4484CC82C0CC30F0056DDC4 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E41219E52C06FC1500873F6B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		E4484CCA2C0CC30F0056DDC4 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E41219E52C06FC1500873F6B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
